@@ -5,5 +5,8 @@
       "src": "Javajeux/**",
       "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/Javajeux/jeu.html" }
   ]
 }
