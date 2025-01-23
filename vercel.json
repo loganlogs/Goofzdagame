@@ -2,14 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "Javajeux/jeu.html",
+      "src": "public/**",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/Javajeux/jeu.html"
     }
   ]
 }
